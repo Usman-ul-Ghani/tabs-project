@@ -8,11 +8,15 @@
 </head>
 <body>
     <div id = "menu-bar">
-        <button id = "tab-1" class = "menu-bar-items">Tab 1</button>
-        <button id = "tab-2" class = "menu-bar-items">Tab 2</button>
-        <button id = "tab-3" class = "menu-bar-items">Tab 3</button>
-        <button id = "tab-4" class = "menu-bar-items">Tab 4</button>
+        <button id = "tab-1" class = "active-menu-item">Tab 1</button>
+        <button id = "tab-2" class = "unactive-menu-items">Tab 2</button>
+        <button id = "tab-3" class = "unactive-menu-items">Tab 3</button>
+        <button id = "tab-4" class = "unactive-menu-items">Tab 4</button>
     </div>
+    <div id = "content-for-tab-1">This is the content of Tab 1</div>
+    <div id = "content-for-tab-2" class="hidden-content">This is the content of Tab 2</div>
+    <div id = "content-for-tab-3" class="hidden-content">This is the content of Tab 3</div>
+    <div id = "content-for-tab-4" class="hidden-content">This is the content of Tab 4</div>
     <script src="script.js"></script>
 </body>
 </html>
